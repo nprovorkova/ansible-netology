@@ -21,4 +21,4 @@ docker run --name centos7 -d pycontribs/centos:7 sleep 36000000
 #### 10. В prod.yml добавьте новую группу хостов с именем local, в ней разместите localhost с необходимым типом подключения.
 #### 11. Запустите playbook на окружении prod.yml. При запуске ansible должен запросить у вас пароль. Убедитесь что факты some_fact для каждого из хостов определены из верных group_vars.
 ![11_1](imgs/11_1.png)
-![11_1](imgs/11_2.png)
+![11_2](imgs/11_2.png)
