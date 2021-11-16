@@ -17,7 +17,7 @@ docker run --name centos7 -d pycontribs/centos:7 sleep 36000000
 ![8](imgs/8.png)
 #### 9. Посмотрите при помощи ansible-doc список плагинов для подключения. Выберите подходящий для работы на control node.
  ansible-doc -t connection -l
- <br>Подойдет плагин local
+ <br>Подойдет плагин <b>local</b>
 #### 10. В prod.yml добавьте новую группу хостов с именем local, в ней разместите localhost с необходимым типом подключения.
 #### 11. Запустите playbook на окружении prod.yml. При запуске ansible должен запросить у вас пароль. Убедитесь что факты some_fact для каждого из хостов определены из верных group_vars.
 ![11_1](imgs/11_1.png)
